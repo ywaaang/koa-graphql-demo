@@ -1,0 +1,26 @@
+{
+    "apps": {
+        "name": "midori-node",
+        "script": "index.js",
+        "cwd": "./",
+        "args": "",
+        "interpreter": "",
+        "interpreter_args": "",
+        "watch": true,
+        "ignore_watch": [
+            "node_modules",
+            "public",
+            "log"
+        ],
+        "min_uptime": "60s",
+        "max_restarts": 30,
+        "autorestart": true,
+        "restart_delay": "60",
+        "env_development": {
+           "NODE_ENV": "development"      
+        },
+        "env_production": {
+            "NODE_ENV": "production"
+        }
+    }
+}
