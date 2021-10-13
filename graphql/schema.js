@@ -20,7 +20,7 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    addUser(name: String, sex: String, height: Int, weight: Int, age: Int): User,
+    register(name: String, sex: String, height: Int, weight: Int, age: Int): User,
     login(id: String): User,
     logout(id: String): String,
   }
@@ -35,7 +35,7 @@ const resolvers = {
     hello: () => 'Hello World'
   },
   Mutation: {
-    addUser: async (parent, args, context) => {
+    register: async (parent, args, context) => {
       const { name, sex, height, weight, age } = args
       return Service.createUser({name, sex, height, weight, age})
     },
