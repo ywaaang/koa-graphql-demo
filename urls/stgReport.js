@@ -15,6 +15,8 @@ stg.post("/getShortageByUID", async (ctx, next) => {
 				id: "fa8e2f18064b11eaa38416d01cf89fc6",
 				oorId: "OOR20191113142958b967",
 				partNum: "8835-9_av01",
+				sn: "8835-9_av01",
+				supplierName: "SiRP",
 				status: "02",
 			},
 			{
@@ -25,6 +27,8 @@ stg.post("/getShortageByUID", async (ctx, next) => {
 				id: "fa8e2f18064b11eaa38416d01cf89fc6",
 				oorId: "OOR20191113142958b967",
 				partNum: "8835-9_av01",
+				sn: "8835-9_av01",
+				supplierName: "SiRP",
 				status: "02",
 			},
 			{
@@ -35,6 +39,8 @@ stg.post("/getShortageByUID", async (ctx, next) => {
 				id: "fa8e2f18064b11eaa38416d01cf89fc6",
 				oorId: "OOR20191113142958b967",
 				partNum: "8835-9_av01",
+				sn: "8835-9_av01",
+				supplierName: "SiRP",
 				status: "02",
 			},
 			{
@@ -45,6 +51,8 @@ stg.post("/getShortageByUID", async (ctx, next) => {
 				id: "fa8e2f18064b11eaa38416d01cf89fc6",
 				oorId: "OOR20191113142958b967",
 				partNum: "8835-9_av01",
+				sn: "8835-9_av01",
+				supplierName: "SiRP",
 				status: "02",
 			},
 		],

@@ -19,7 +19,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier1",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -39,7 +39,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "1",
-				highlightFlag: "1"
+				highlightFlag: "1",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -54,7 +55,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier2",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -74,7 +75,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "1",
-				highlightFlag: "1"
+				highlightFlag: "1",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -89,7 +91,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier1",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -109,7 +111,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "1",
-				highlightFlag: "1"
+				highlightFlag: "1",
+				contactOwner: 'Team2'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -124,7 +127,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier3",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -144,7 +147,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "1",
-				highlightFlag: "1"
+				highlightFlag: "1",
+				contactOwner: 'Team2'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -159,7 +163,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier4",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -179,7 +183,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "0",
-				highlightFlag: "1"
+				highlightFlag: "1",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -194,7 +199,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier5",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -214,7 +219,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "1",
-				highlightFlag: "0"
+				highlightFlag: "0",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -229,7 +235,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier12",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -249,7 +255,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "0",
-				highlightFlag: "0"
+				highlightFlag: "0",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -264,7 +271,7 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier13",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -284,7 +291,8 @@ report.post("/getPartByStatus", async (ctx, next) => {
 				supplierComments: "aaaa",
 				deliveryDate: "",
 				isCommentRead: "1",
-				highlightFlag: "1"
+				highlightFlag: "1",
+				contactOwner: 'Team2'
 			},
 		],
 		total: 1,
@@ -314,7 +322,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier11",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -333,6 +341,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				trackingNum: "",
 				supplierComments: "aaaa",
 				deliveryDate: "",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -347,7 +356,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier14",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -366,6 +375,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				trackingNum: "",
 				supplierComments: "aaaa",
 				deliveryDate: "",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -380,7 +390,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier2",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -399,6 +409,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				trackingNum: "",
 				supplierComments: "aaaa",
 				deliveryDate: "",
+				contactOwner: 'Team2'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -413,7 +424,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier11",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -432,6 +443,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				trackingNum: "",
 				supplierComments: "aaaa",
 				deliveryDate: "",
+				contactOwner: 'Team2'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -446,7 +458,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier11",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -465,6 +477,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				trackingNum: "",
 				supplierComments: "aaaa",
 				deliveryDate: "",
+				contactOwner: 'Team1'
 			},
 			{
 				id: "af598890566411e9b3a416e67761ea5e",
@@ -479,7 +492,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier14",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -498,6 +511,7 @@ report.post("/getInactivePartByStatus", async (ctx, next) => {
 				trackingNum: "",
 				supplierComments: "aaaa",
 				deliveryDate: "",
+				contactOwner: 'Team1'
 			},
          
 		],
@@ -527,7 +541,7 @@ report.post("/getPendingApprovalParts", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier2",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -560,7 +574,7 @@ report.post("/getPendingApprovalParts", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier1",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -593,7 +607,7 @@ report.post("/getPendingApprovalParts", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier1",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -626,7 +640,7 @@ report.post("/getPendingApprovalParts", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier3",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -659,7 +673,7 @@ report.post("/getPendingApprovalParts", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier3",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,
@@ -692,7 +706,7 @@ report.post("/getPendingApprovalParts", async (ctx, next) => {
 				issueDate: "11-21-2017",
 				requestDate: "11-30-2017",
 				supplierId: "1aa67686566011e9b3a416e67761ea5e",
-				supplierName: "takalia",
+				supplierName: "Supplier1",
 				buyerId: "BYR20190403182045390",
 				sn: "ALT0073",
 				meta: null,

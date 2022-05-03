@@ -10,7 +10,7 @@ function upperDirectiveTransformer(schema, directiveName) {
       [MapperKind.OBJECT_FIELD]: (fieldConfig) => {
   
         // Check whether this field has the specified directive
-          const upperDirective = getDirective(schema, fieldConfig, directiveName)?.[0];
+          const upperDirective = getDirective(schema, fieldConfig, directiveName)[0];
         if (upperDirective) {
           // Get this field's original resolver
           const { resolve = defaultFieldResolver } = fieldConfig;
@@ -37,7 +37,7 @@ function authDirectiveTransformer (schema, directiveName) {
       [MapperKind.OBJECT_FIELD]: (fieldConfig) => {
   
         // Check whether this field has the specified directive
-          const authDirective = getDirective(schema, fieldConfig, directiveName)?.[0];
+          const authDirective = getDirective(schema, fieldConfig, directiveName)[0];
         if (authDirective) {
           // Get this field's original resolver
           const { resolve = defaultFieldResolver } = fieldConfig;

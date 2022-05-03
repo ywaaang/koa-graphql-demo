@@ -7,11 +7,11 @@ const staticCache = require('koa-static-cache');
 const { logger } = require('./middlewares/log');
 const responseHanlder = require('./middlewares/response');
 const app = new Koa();
-const { typeDefs, resolvers } = require('./graphql/schema')
-const { upperDirectiveTransformer, authDirectiveTransformer } = require('./graphql/directive')
-const { makeExecutableSchema } = require('@graphql-tools/schema');
-const { ApolloServer } = require('apollo-server-koa')
-const { ApolloServerPluginLandingPageGraphQLPlayground, ApolloServerPluginCacheControl } = require('apollo-server-core');
+// const { typeDefs, resolvers } = require('./graphql/schema')
+// const { upperDirectiveTransformer, authDirectiveTransformer } = require('./graphql/directive')
+// const { makeExecutableSchema } = require('@graphql-tools/schema');
+// const { ApolloServer } = require('apollo-server-koa')
+// const { ApolloServerPluginLandingPageGraphQLPlayground, ApolloServerPluginCacheControl } = require('apollo-server-core');
 const config = require('./config/default.js');
 
 app.use(require('./utils/jwt'));
@@ -78,7 +78,7 @@ const router = new Router()
 const fs = require('fs')
 
 app.use(async (ctx, next)=> {
-  ctx.set('Access-Control-Allow-Origin', 'http://localhost:9528');
+  ctx.set('Access-Control-Allow-Origin', 'https://api.dev.midori.earth');
   ctx.set('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
   ctx.set('Access-Control-Allow-Credentials', true);
   ctx.set('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization, Access-Control-Allow-Origin');

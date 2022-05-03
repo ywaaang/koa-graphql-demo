@@ -29,22 +29,32 @@ config.get('/getUIDColumns', async (ctx, next) => {
           "lv1UIDColumnsV2" : {
             "1" : {
               "isMapped" : "2",
-              "from" : "PO NUMBER",
-              "to" : "Numéro"
+              "from" : "PO",
+              "to" : "poDocNum"
+            },
+            "1" : {
+              "isMapped" : "2",
+              "from" : "P/N",
+              "to" : "partNum"
+            },
+            "1" : {
+              "isMapped" : "2",
+              "from" : "S/N",
+              "to" : "sn"
             }
           },
           "lv2UIDColumnsV2" : {
             "7" : {
               "isMapped" : "3",
               "from" : "SUPPLIER CODE",
-              "to" : "SUPPLIER CODE"
+              "to" : "supplierName"
             }
           },
           "lv3UIDColumnsV2" : {
             "2" : {
               "isMapped" : "3",
               "from" : "PART NUMBER",
-              "to" : "PART NUMBER"
+              "to" : "partNum"
             }
           }
         }
